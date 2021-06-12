@@ -1,0 +1,15 @@
+@import url(./__headline/second-section__headline.css);
+@import url(./__article/second-section__article.css);
+@import url(./__article-wrapper/second-section__article-wrapper.css);
+@import url(./__article-para/second-section__article-para.css);
+@import url(./__image/second-section__image.css);
+.second-section {
+  min-width: 1024px;
+  height: 100vh;
+  /* background-image: url(../../img/bg-2.png); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}

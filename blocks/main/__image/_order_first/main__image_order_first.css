@@ -1,0 +1,9 @@
+.main__image_order_first {
+  right: 17%;
+  top: 12%;
+  --transparent-initial: 0;
+  --transparent-final: 0.8;
+  opacity: var(--transparent-initial);
+  --delay: 1;
+  /* animation: fadeIn 1.5s ease-in-out 1 normal forwards; */
+}

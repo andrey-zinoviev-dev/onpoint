@@ -1,0 +1,24 @@
+@import url(./__img/third-section__img.css);
+@import url(./__text-wrapper/third-section__text-wrapper.css);
+@import url(./__wrapper/third-section__wrapper.css);
+@import url(./__subtitle/third-section__subtitle.css);
+@import url(./__headline/third-section__headline.css);
+@import url(./__wrapper/third-section__wrapper.css);
+@import url(./__para/third-section__para.css);
+@import url(./__para-img/third-section__para-text-img.css);
+@import url(./__button-wrapper/third-section__button-wrapper.css);
+@import url(./__para-text/third-section__para-text.css);
+@import url(./__button/third-section__button.css);
+@import url(./__button-round-div/third-section__button-round-div.css);
+@import url(./__button-round-div-span/third-section__button-round-div-span.css);
+@import url(./__button-span/third-section__button-span.css);
+
+.third-section {
+  position: relative;
+  min-width: 1024px;
+  height: 100vh;
+  overflow: hidden;
+  /* background-image: url(../../img/bottle.png); */
+  display: flex;
+  align-items: center;
+}

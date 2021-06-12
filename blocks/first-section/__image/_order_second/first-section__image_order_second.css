@@ -1,0 +1,9 @@
+.first-section__image_order_second {
+  left: 2%;
+  bottom: 18%;
+  --bottom-initial:18%;
+  --left-initial: 2%;
+  --bottom-final: 20%;
+  --left-final: 1%;
+  animation: elementShift 4s ease-in-out infinite alternate;
+}

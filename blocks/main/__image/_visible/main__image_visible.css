@@ -1,0 +1,3 @@
+.main__image_visible {
+  animation: fadeIn 1.5s ease-in-out 1 normal forwards;
+}

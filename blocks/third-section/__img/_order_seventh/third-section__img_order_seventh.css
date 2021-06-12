@@ -1,0 +1,10 @@
+.third-section__img_order_seventh {
+  top: 42%;
+  left: 20%;
+  z-index: 2;
+  --top-initial: 42%;
+  --left-initial: 20%;
+  --top-final: 44%;
+  --left-final: 22%;
+  animation: elementShift 7s ease-in-out infinite alternate;
+}

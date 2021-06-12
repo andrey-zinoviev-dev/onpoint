@@ -1,0 +1,20 @@
+.second-section__article-wrapper {
+  max-height: 410px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  direction: rtl;
+}
+.second-section__article-wrapper::-webkit-scrollbar {
+  width: 10px;
+  position: absolute;
+}
+.second-section__article-wrapper::-webkit-scrollbar-track {
+  background-color: black;
+  border-radius: 15px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+.second-section__article-wrapper::-webkit-scrollbar-thumb {
+  background-color: #cf578d;
+  border-radius: 15px;
+}

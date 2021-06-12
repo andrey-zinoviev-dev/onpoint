@@ -1,0 +1,14 @@
+.first-section__image_order_fourth {
+  max-width: 111px;
+  top: 34%;
+  right: 8%;
+  --top-initial: 34%;
+  --right-initial: 8%;
+  --top-medium: 34%;
+  --right-medium: 15%;
+  --top-final: 32%;
+  --right-final: 13%;
+  --spin-initial: 0deg;
+  --spin-final: -360deg; 
+  animation: elementShift 5.5s ease-in-out infinite alternate, elementSpin 24s linear infinite normal;
+}

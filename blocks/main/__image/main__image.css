@@ -1,0 +1,14 @@
+@keyframes fadeIn {
+  0% {
+    opacity: var(--transparent-initial);
+    transform: translateX(20%);
+  }
+  100% {
+    opacity: var(--transparent-final);
+    transform: translateX(0%);
+  }
+}
+.main__image {
+  position: absolute;
+  z-index: -1;
+}

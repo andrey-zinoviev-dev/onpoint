@@ -1,0 +1,8 @@
+.main__sections-wrapper {
+  min-width: 3072px; 
+  display: flex;
+  background-image: url(../../../img/Ellipse\ 1\ copy.png);
+  background-size: cover;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}

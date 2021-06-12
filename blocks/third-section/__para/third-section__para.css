@@ -1,0 +1,10 @@
+.third-section__para {
+  min-width: 414px;
+  min-height: 265px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 125px rgb(157 185 198 / 39%);
+  position: relative;
+  padding: 60px 45px 30px 45px;
+  box-sizing: border-box;
+  background-color: white;
+}

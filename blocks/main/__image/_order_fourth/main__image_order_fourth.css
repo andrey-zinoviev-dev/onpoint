@@ -1,0 +1,12 @@
+.main__image_order_fourth {
+  max-width: 650px;
+  right: 16.5%;
+  top: 56%;
+  /* opacity: 0.7; */
+  --transparent-initial: 0;
+  --transparent-final: 1;
+  opacity: var(--transparent-initial);
+  --delay: 4;
+  /* animation: fadeIn 1.5s ease-in-out 1 normal forwards; */
+  animation-delay: calc(0.1* var(--delay));
+}

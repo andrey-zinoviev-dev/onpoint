@@ -1,0 +1,7 @@
+.third-section__img {
+  position: absolute;
+  z-index: 3;
+  max-width: 220px;
+  top: 13%;
+  left: 5%;
+}

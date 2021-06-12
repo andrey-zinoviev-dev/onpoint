@@ -1,0 +1,8 @@
+.footer {
+  padding: 45px 0 0 0;
+  box-sizing: border-box;
+  position: fixed;
+  left: 2%;
+  z-index: 5;
+  bottom: 2%;
+}

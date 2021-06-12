@@ -1,0 +1,12 @@
+.main__image_order_third {
+  top: 10%;
+  right: 32%;
+  max-width: 350px;
+  /* opacity: 0.5; */
+  --transparent-initial: 0;
+  --transparent-final: 0.5;
+  opacity: var(--transparent-initial);
+  --delay: 3;
+  /* animation: fadeIn 1.5s ease-in-out 1 normal forwards; */
+  animation-delay: calc(0.1* var(--delay));
+}

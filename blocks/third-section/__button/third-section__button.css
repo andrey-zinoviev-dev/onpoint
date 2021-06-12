@@ -1,0 +1,11 @@
+.third-section__button {
+  min-width: 264px;
+  min-height: 81px;
+  background-color: #ff6a9e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 93px;
+  padding: 0px 30px 0 22px;
+  box-sizing: border-box;
+}

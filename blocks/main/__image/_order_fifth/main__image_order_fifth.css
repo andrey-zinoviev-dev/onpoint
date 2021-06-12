@@ -1,0 +1,12 @@
+.main__image_order_fifth {
+  max-width: 400px;
+  right: 24.5%;
+  bottom: 6%;
+  filter: blur(1px);
+  --transparent-initial: 0;
+  --transparent-final: 0.7;
+  opacity: var(--transparent-initial);
+  --delay: 5;
+  /* animation: fadeIn 1.5s ease-in-out 1 normal forwards; */
+  animation-delay: calc(0.1* var(--delay));
+}

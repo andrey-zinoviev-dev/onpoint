@@ -1,0 +1,49 @@
+@import url(./-para/first-section-para.css);
+@import url(./-headline/first-section-headline.css);
+@import url(./-text-wrapper/first-section-text-wrapper.css);
+@import url(./wrapper-img/first-section-wrapper-img.css);
+@import url(./-button/first-section-button.css);
+@import url(./-button-round-div/first-section-button-round-div.css);
+@import url(./-button-round-div-arrow/first-section-button-round-div-arrow.css);
+@import url(./-button-span/first-section-button-span.css);
+@import url(./__image/first-section__image.css);
+@keyframes elementShift {
+  0% {
+    top: var(--top-initial);
+    bottom: var(--bottom-initial);
+    left: var(--left-initial);
+    right: var(--right-initial);
+    /* transform: rotate(var(--spin-initial)); */
+  }
+  /* 50% {
+    top: var(--top-medium);
+    bottom: var(--bottom-medium);
+    left: var(--left-medium);
+    right: var(--right-medium); 
+  } */
+  100% {
+    top: var(--top-final);
+    bottom: var(--bottom-final);
+    left: var(--left-final);
+    right: var(--right-final);
+    /* transform: rotate(var(--spin-final)); */
+  }
+}
+@keyframes elementSpin {
+  0% {
+    transform: rotate(var(--spin-initial));
+  }
+  100% {
+    transform: rotate(var(--spin-final));
+  }
+}
+.first-section {
+  min-width: 1024px;
+  height: 100vh;
+  /* background-image: url(../../img/background.png); */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.first-section-button {
+  position: absolute;
+  min-height: 81px;
+  min-width: 289px;
+  right: 8%;
+  bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* min-width: 577px; */
+  /* min-height: 161px; */
+  border-radius: 93px;
+  /* padding: calc((100% - 161px)/2) calc((100% - 577px)/2); */
+  /* padding: 70px 245px; */
+  background-color: #ff6a9e;
+  /* font-size: 54px; */
+}

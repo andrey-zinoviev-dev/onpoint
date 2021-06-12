@@ -1,0 +1,8 @@
+.popup__headline {
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 93px;
+  letter-spacing: 10px;
+  margin: 0;
+}

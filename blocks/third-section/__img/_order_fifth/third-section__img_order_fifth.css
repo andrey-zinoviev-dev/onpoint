@@ -1,0 +1,9 @@
+.third-section__img_order_fifth {
+  top: 24%;
+  left: 19%;
+  --top-initial: 24%;
+  --left-initial: 19%;
+  --top-final: 28%;
+  --left-final: 24%;
+  animation: elementShift 6s linear infinite alternate;
+}

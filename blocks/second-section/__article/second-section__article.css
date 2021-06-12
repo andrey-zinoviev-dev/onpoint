@@ -1,0 +1,11 @@
+.second-section__article {
+  max-height: 445px;
+  /* overflow: auto; */
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 5px 5px 125px #9db9c6;
+  background-color: white;
+  margin-bottom: 2%;
+  /* direction: rtl; */
+}
+

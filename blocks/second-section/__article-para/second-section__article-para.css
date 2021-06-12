@@ -1,0 +1,11 @@
+.second-section__article-para {
+  min-height: 652px;
+  max-width: 716px;
+  border-radius: 15px;
+  /* background-color: white; */
+  /* padding: 20px; */
+  line-height: 1.5;
+  font-size: 22px;
+  margin: 0;
+  direction: ltr;
+}

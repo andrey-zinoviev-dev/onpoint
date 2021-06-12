@@ -1,0 +1,9 @@
+.popup__navigation-dots-dot {
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 50%;
+  padding: 0;
+  border: 2px solid black;
+  transition: background-color 0.15s ease-in-out, border 0.15s ease-in-out;
+  /* background: #fc6da9; */
+}

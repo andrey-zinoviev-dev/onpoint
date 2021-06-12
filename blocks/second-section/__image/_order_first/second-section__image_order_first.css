@@ -1,0 +1,6 @@
+.second-section__image_order_first {
+  position: absolute;
+  right: -50%;
+  top: 7%;
+  z-index: -1;
+}

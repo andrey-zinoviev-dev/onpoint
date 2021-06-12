@@ -1,0 +1,7 @@
+@import url(./__sections/main__sections.css);
+@import url(./__sections-wrapper/main__sections-wrapper.css);
+@import url(./__image/main__image.css);
+.main {
+  /* margin-top: 235px; */
+  height: 100%;
+}

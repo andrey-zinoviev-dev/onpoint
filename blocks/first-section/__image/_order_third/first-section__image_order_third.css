@@ -1,0 +1,10 @@
+.first-section__image_order_third {
+  max-width: 63px;
+  top: 15%;
+  right: 23%;
+  --top-initial: 15%;
+  --right-initial: 23%;
+  --top-final: 18%;
+  --right-final: 19%;
+  animation: elementShift 7s linear infinite alternate;
+}

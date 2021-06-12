@@ -1,0 +1,7 @@
+.second-section__image_order_third {
+  max-width: 650px;
+  top: 50%;
+  right: -51%;
+  opacity: 0.75;
+  z-index: -1;
+}
