@@ -53,9 +53,11 @@ slides.forEach((slide) => {
 });
 
 firstSectionButton.addEventListener('click', () => {
-  scrollOnClick(secondSection);
+  currentIndex = 1;
+  setPositionByIndex();
 });
 
 headerButton.addEventListener('click', () => {
-  scrollHome(firstSection);
+  currentIndex = 0;
+  setPositionByIndex();
 });
