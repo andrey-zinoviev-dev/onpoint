@@ -18,6 +18,7 @@ let currentTranslate = 0;
 let prevTranslate = 0;
 let animationId = 0;
 let currentIndex = 0;
+let buttonIsSwiped = false;
 
 const secondSectionImages = Array.from(document.querySelectorAll('.main__image'));
 
