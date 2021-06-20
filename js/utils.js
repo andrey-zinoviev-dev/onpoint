@@ -1,4 +1,4 @@
-const popupOpenButton = document.querySelector('.third-section__button-span');
+const popupOpenButton = document.querySelector('.third-section__button');
 const popupDiv = document.querySelector('.popup');
 const popupCloseButton = popupDiv.querySelector('.popup__close');
 const ulElement = document.querySelector('.popup__list');
@@ -45,11 +45,11 @@ function removeActiveClass(dots) {
   })
 }
 
-function scrollOnClick(section) {
-  section.scrollIntoView({block: 'start', behavior: 'smooth'});
-}
+// function scrollOnClick(section) {
+//   section.scrollIntoView({block: 'start', behavior: 'smooth'});
+// }
 
-function scrollHome(section) {
-  sliderContainer.style.transform = `translateX(0)`;
-  section.scrollIntoView({block: 'start', behavior: 'smooth'});
-}
+// function scrollHome(section) {
+//   sliderContainer.style.transform = `translateX(0)`;
+//   section.scrollIntoView({block: 'start', behavior: 'smooth'});
+// }
